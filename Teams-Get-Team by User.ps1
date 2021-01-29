@@ -1,4 +1,4 @@
-#Install-Module MicrosoftTeams -Force -AllowClobber
+#Install-Module MicrosoftTeams -Force -AllowClobber 
 $connectTeams = Connect-MicrosoftTeams
 
 $Teams = Get-Team -User <UserPrincipalName> 
